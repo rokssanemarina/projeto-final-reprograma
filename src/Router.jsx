@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import {Menu} from './Components/Menu'
+import {Footer} from './Components/Footer'
 
 import {Inicio} from './Pages/Inicio'
 import {Sobre} from './Pages/Sobre'
@@ -18,6 +19,7 @@ export function ApplicationRoutes (){
             <Route path="/encontre" element ={<Encontre/>}/>
             <Route path="/ajuda" element ={<Ajuda/>}/>
         </Routes>
+        <Footer />
         </BrowserRouter>
     )
 }

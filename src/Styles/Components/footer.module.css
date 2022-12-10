@@ -1,0 +1,27 @@
+.footerContainer{
+    padding: 0.5rem;
+    background: #686AAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText{
+    color: #fff;
+    font-size: 1rem;
+}
+.profile.img{
+    width: 20%;
+}
+.socialContainer{
+    padding: 1rem;
+    background: #686AAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialTitle{
+    color: rgb(121, 119, 119);
+    font-size: 3rem;
+    justify-content: center;
+}

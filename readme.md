@@ -15,3 +15,7 @@ Em seu conceito na lingua portuguesa a pontuação (;) representa uma necessidad
 * Durante o processo de desenvolvimento desse projeto, algumas ideias foram passando quando o ponto foi a lista de lugares, eu poderia escolher fazer a lista por nivel mais nacional, que exigiria um banco de dados maior; um nivel regional, que seria apenas pela região nordesde ou por fim o nivel estadual, que atenderia a região da minha cidade. Falando em nivel nacional que teria um banco de dados um pouco maior, teria que ser criada uma API para fazer a leitura dos dados e serem expostas na tela. A escolha por uma leitura de array foi feita pra justamente se igualar ao nivel de dificuldade que possuo em relação a essa determinada atividade
 ## Uso do FireBase 
 * Incluir o firebase como parte do projeto veio mais com objetivo de criar um banco de dados por fora para que ele possa ser usado e até mesmo por lado mais tecnico. 
+
+## Fatos interessantes sobre o projeto
+* Cuidar um pouco mais do css me ajudou a me sentir um pouco mais confiante e instigada a querer aprender mais sobre essa parte, acredito que foi um momento bom de "fazer as pazes" comigo mesma em relação ao começo da minha jornada no {Reprograma} e acreditar que meu potencial foi alcançado durante esses ultimos meses.
+* Trabalhar com Array e com firebase foi algo que inclui para elevar mais o desafio que foi pensar nesse projeto final, ele teve uma base no projeto final de modulo apresentado pela profa Simara Conceição durante o módulo de React. 

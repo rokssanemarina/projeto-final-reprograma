@@ -1,7 +1,11 @@
+import {Header} from '../Components/Header'
+import homeImg from '../assets/search-photo.svg'
+
+
 export function Inicio (){
     return (
         <div>
-            <h1>eu sou uma capa do projeto</h1>
+         <Header title="ponto e vírgula" subtitle="ajudando a reescrever sua história"/>
         </div>
     )
 }

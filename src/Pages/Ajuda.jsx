@@ -1,7 +1,10 @@
+import {Header} from '../Components/Header'
+import testeImg from '../assets/imagem-teste.svg'
+
 export function Ajuda (){
     return(
         <div>
-            <h1>eu sou um formulario de ajuda</h1>
+        <Header title="essa é a central de ajuda" image={testeImg}/>
         </div>
     )
 }

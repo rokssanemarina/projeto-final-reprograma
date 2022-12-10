@@ -9,7 +9,7 @@ export function Menu (){
                 <Link className={Styles.menuLink} to="/">Inicio</Link>
             </li>
             <li className={Styles.menuItem} >
-                <Link className={Styles.menuLink} to="/sobre">Sobre</Link>
+                <Link className={Styles.menuLink} to="/sobre">A autora</Link>
             </li>
             <li className={Styles.menuItem}>
                 <Link className={Styles.menuLink} to="/encontre">Encontre Ajuda</Link>

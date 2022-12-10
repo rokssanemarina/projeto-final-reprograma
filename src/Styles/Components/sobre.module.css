@@ -1,0 +1,44 @@
+.bioContainer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileImg{
+    width: 40%;
+}
+.socialContainter{
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialTitle{
+    color: rgb(15, 15, 15);
+    font-size: 2.5rem;
+}
+
+.mediaContainer{
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.linkContainer{
+    background: rgb(187, 107, 107);
+    height: 13rem;
+    width: 10rem;
+    border-radius: 2rem;
+    align-items: center;
+}
+.iconImg{
+    width: 60%;
+    align-items: center;
+}
+
+.socialTitle{
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
