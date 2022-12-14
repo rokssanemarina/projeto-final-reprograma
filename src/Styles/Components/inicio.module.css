@@ -1,0 +1,45 @@
+.titleContainer{
+    justify-content: center;
+    align-items: center;
+}
+.titleName{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.inicioContainer{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.causeTitle{
+    color: rgb(2, 2, 2);
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.openContainer{
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+.iconOption{
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:765px){
+    .inicioContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}

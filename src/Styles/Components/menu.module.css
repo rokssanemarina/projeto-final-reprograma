@@ -1,5 +1,5 @@
 .menuContainer{
-    background:rgb(244, 244, 244);
+    background:#fff3b0;
     display: flex;
     gap: 10rem;
     align-items: center;
@@ -15,6 +15,7 @@
     text-decoration: none;
     color: #030303;
     font-size: 1rem;
+    font-weight: 700;
 }
 
 @media (max-width:765px){

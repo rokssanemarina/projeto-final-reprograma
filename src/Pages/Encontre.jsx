@@ -1,5 +1,5 @@
 import {Header} from '../Components/Header'
-import testeImg from '../assets/abobora-teste.svg'
+import testeImg from '../assets/help-assist.svg'
 
 export function Encontre (){
     return(

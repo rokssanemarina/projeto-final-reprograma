@@ -1,13 +1,13 @@
 .footerContainer{
     padding: 0.5rem;
-    background: #686AAC;
+    background: #fff3b0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footerText{
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
 }
 .profile.img{

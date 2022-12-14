@@ -1,8 +1,10 @@
 import { Header } from "../Components/Header";
-import gatoImg from "../assets/search-photo.svg";
-import profileFoto from "../assets/gato-teste.svg";
+import gatoImg from "../assets/me-illustration.svg";
+import profileFoto from "../assets/rocks-profile.png";
+
 import Style from "../Styles/Components/sobre.module.css";
-import icon from "../assets/abobora-teste.svg"
+
+import {InstagramLogo, LinkedinLogo, GithubLogo, TwitterLogo} from 'phosphor-react'
 
 export function Sobre() {
   return (
@@ -21,21 +23,26 @@ export function Sobre() {
         </p>
       </div>
       <div className={Style.socialContainter}>
-        <p className={Style.socialTitle}>Minhas redes</p>
+        <p className={Style.socialGeneral}>Minhas redes</p>
       </div>
       <div className={Style.mediaContainer}>
         <div className={Style.linkContainer}>
-            <img className={Style.iconImg} src={icon} />
+            <LinkedinLogo size={120} weight="thin" color="#000" />
             <h2 className={Style.socialTitle}>Linkedin</h2>
             <p className={Style.socialDescription}>Rokssane Marina</p>
         </div>
         <div className={Style.linkContainer} >
-            <img className={Style.iconImg} src={icon}/>
+            <GithubLogo size={120} weight="thin" color="#000"/>
             <h2 className={Style.socialTitle}>GitHub</h2>
             <p>@rokssanemarina</p>
         </div>
         <div className={Style.linkContainer} >
-            <img className={Style.iconImg} src={icon} /> 
+            <TwitterLogo size={120} weight="thin" color="#000"/>
+            <h2 className={Style.socialTitle} >Twitter</h2>
+            <p className={Style.socialSubitle}>@rokssanemarina</p>
+        </div>
+        <div className={Style.linkContainer} >
+            <InstagramLogo size={120} weight="thin" color="#000"/>
             <h2 className={Style.socialTitle} >Instagram</h2>
             <p>@rokssanemarina</p>
         </div>

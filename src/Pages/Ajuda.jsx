@@ -1,10 +1,15 @@
 import {Header} from '../Components/Header'
-import testeImg from '../assets/imagem-teste.svg'
+import helpImg from '../assets/help-assist.svg'
 
 export function Ajuda (){
     return(
         <div>
-        <Header title="essa é a central de ajuda" image={testeImg}/>
+        <Header title="essa é a central de ajuda" image={helpImg}/>
+        <form> 
+            <input type="text" placeholder='coloque o nome do lugar' />
+            <input type="text" placeholder='coloque o endereço com numero'/>
+            
+        </form>
         </div>
     )
 }
