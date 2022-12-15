@@ -1,0 +1,84 @@
+.helpContainer{
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.helpTitle{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.helpSubtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textContainer{
+    justify-content: center;
+    padding: 1rem;
+}
+
+/* estilo do formulário */
+
+.formContainer{
+    width: 100%;
+}
+.form{
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.formIput{
+    width: 80%;
+    padding: 12px 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 1rem;
+}
+
+.formTextarea{
+    width: 80%;
+    padding: 12px 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 1rem;
+}
+.formButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1rem;
+    width: 80%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+@media (max-width:765px){
+    .helpContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
