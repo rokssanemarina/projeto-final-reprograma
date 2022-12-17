@@ -6,13 +6,13 @@ import {getDatabase} from 'firebase/database';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDV68R4z_HLUXV2fuUhZ4PYJipa1LeYTVA",
-  authDomain: "projeto-formulario-e3978.firebaseapp.com",
-  projectId: "projeto-formulario-e3978",
-  storageBucket: "projeto-formulario-e3978.appspot.com",
-  messagingSenderId: "823046993538",
-  appId: "1:823046993538:web:8c3a1425a169ad321aa69b",
-  databaseURL : 'https://projeto-formulario-e3978-default-rtdb.firebaseio.com/'
+  apiKey: import.meta.env.VITE_API_KEY, 
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  databaseURL : import.meta.env.VITE_DATABASE_URL,
 };
 
 // Initialize Firebase
