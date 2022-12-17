@@ -1,0 +1,59 @@
+.listaContainer{
+    width: 90%;
+    color: rgb(204, 204, 28);
+    text-align: center;
+    padding-top:2rem;
+
+}
+.listaTitle{
+font-size: 2rem;
+color: black;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+margin: 1rem;
+}
+.ondeContainer{
+margin: 0 auto;
+width: 70%;
+padding: 1rem;
+gap: 2rem;
+font-size: 0.5rem;
+display: flex;
+justify-content: center;
+align-items: stretch;
+}
+.card{
+    background-color: blueviolet;
+    width: 10rem ;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 2rem;
+    border-radius: 10px 10px 10px 10px;
+}
+.cardTitle{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.cardType{
+    padding: 0.5rem;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.cardMoney{
+    font-size: 12px;
+
+}
+
+/* responsividade */
+@media (max-width:765px){
+    .listaContainer{
+        display:contents;
+        justify-content:flex-end;
+        align-items: center;
+        gap: 1rem;
+    }
+}

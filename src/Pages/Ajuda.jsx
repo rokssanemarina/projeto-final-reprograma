@@ -50,7 +50,7 @@ export function Ajuda() {
 
   return (
     <div>
-      <Header title="essa é a central de ajuda" image={helpImg} />
+      <Header title="Ajude-nos" image={helpImg} />
       <div className={Style.textContainer}>
         <h1 className={Style.helpTitle}>Ajude-nos a encontrar novos lugares</h1>
         <p className={Style.helpSubtitle}>Preencha o formulário com lugares que você conheça que ofereça atendimento gratuito ou até mesmo particular seja tanto online ou presencial</p>

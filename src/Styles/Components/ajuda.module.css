@@ -22,13 +22,14 @@
 /* estilo do formulário */
 
 .formContainer{
-    width: 100%;
+    width: 90%;
 }
 .form{
-    margin: 0 auto;
-    border-radius: 4px;
+    margin: 2rem ;
+    padding: 1rem;
+    /* border-radius: 4px;
     width: 80%;
-    height: 600px;
+    height: 600px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,12 +37,13 @@
 } 
 
 .formIput{
-    width: 80%;
+    width: 70%;
+    padding: 2rem;
+    margin: 2rem;
     padding: 12px 32px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    margin-bottom: 1rem;
 }
 
 .formTextarea{
@@ -51,7 +53,9 @@
     border-radius: 4px;
     resize: vertical;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
+
 .formButton {
     background-color: #4CAF50;
     border: none;
