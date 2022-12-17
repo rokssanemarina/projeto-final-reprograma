@@ -30,4 +30,5 @@ Em seu conceito na lingua portuguesa a pontuação (;) representa uma necessidad
 * formulário de ajuda
 * mais o uso de outras tecnologias que podem complementar o projeto 
 
-## Conheça o ponto-e-virgula ('ponto-e-virgula.vercel.app')
+## Conheça o ponto-e-virgula.
+O site já está no ar e você pode acessar aqui: [ponto-e-virgula](ponto-e-virgula.vercel.app)
